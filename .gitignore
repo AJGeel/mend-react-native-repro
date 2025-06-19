@@ -1,0 +1,27 @@
+node_modules/
+dist/
+.jest/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+.idea
+.env
+build-*.tar.gz
+build-*.apk
+
+# Prebuild
+.expo/
+/android
+/ios
+
+# macOS
+.DS_Store
+coverage/
+
+# IDE artifacts
+.vscode

@@ -1,0 +1,5 @@
+*.pbxproj -text
+# specific for windows script files
+*.bat text eol=crlf
+android/gradlew text eol=lf
+android/gradlew.bat text eol=crlf

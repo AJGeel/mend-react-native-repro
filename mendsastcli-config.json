@@ -1,0 +1,50 @@
+{
+  "connection": {
+    "timeoutMin": 10,
+    "insecureSkipVerify": false
+  },
+  "proxy": {
+    "enabled": false,
+    "url": "",
+    "username": "",
+    "password": ""
+  },
+  "cachePath": "",
+  "scans": {
+    "engines": [8, 15],
+    "directory": ".",
+    "application": "",
+    "template": "",
+    "submitSnippets": true,
+    "submitLogs": true,
+    "snippetSize": 10,
+    "exclusions": ["dev", "docs", "node_modules", "jest", "templates"],
+    "incremental": true,
+    "uploadBaseline": true,
+    "baselineStorage": "",
+    "containerImage": "",
+    "statusInterval": 0,
+    "retries": 0,
+    "threshold": {
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "cwe": [],
+      "runtime": 480,
+      "onlyOnNew": false
+    }
+  },
+  "remediation": {
+    "enabled": false
+  },
+  "reports": {
+    "generate": false,
+    "formats": [],
+    "filename": ""
+  },
+  "logs": {
+    "storageSizeLimit": 2048
+  },
+  "noColor": false,
+  "noProgress": false
+}
