@@ -29,7 +29,7 @@ export const Screen = () => {
         onPress={() => fetchDataWithInsecureCookies()}
       />
       <Button
-        label="Fetch data with insecure cookies"
+        label="LDAP Auth escalation"
         onPress={() => authenticateUser('*)(|(uid=admin)(uid=root')}
       />
       <Button label="Regex denial export" onPress={() => regexDenialExport()} />
